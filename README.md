@@ -6,15 +6,16 @@ This repository contains the source code for my Final Year Project, which focuse
 
 ## 📁 Project Structure
 Source Code/
-│
-├── Driving/ # Models trained on driving data only
-├── Driving + PVT/ # Models trained on driving + behavioral data
-├── Physio/ # Models trained on physiological data only
-├── Physio + Driving/ # Combined physiological + driving data
-├── Physio + Driving + PVT/ # Full multimodal input (main experiment)
-├── Physio + PVT/ # Physiological + behavioral data
-├── PVT/ # Behavioral data (reaction time only)
-└── Exp4/ # Dataset folder (notebook uses Exp4 subset)
+Source Code/
+├── Driving/                  # Models trained on driving data only
+├── Driving + PVT/           # Models trained on driving and behavioral (PVT) data
+├── Physio/                  # Models trained on physiological signals only
+├── Physio + Driving/        # Combined physiological and driving data
+├── Physio + Driving + PVT/  # Full multimodal input (main experiment focus)
+├── Physio + PVT/            # Combined physiological and behavioral data
+├── PVT/                     # Behavioral (reaction time) data only
+└── Exp4/                    # Dataset folder (Meteier et al. 2023 subset used in this project)
+
 
 
 Each folder (excluding `Exp4`) contains multiple Jupyter notebooks (`.ipynb`) with experiments for various models.
