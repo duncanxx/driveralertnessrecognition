@@ -36,7 +36,7 @@ The following models are trained and evaluated across different modality combina
   - CatBoost
 
 - **Deep Learning:**
-  - Neural Network (FCNN)
+  - Neural Network (NN)
   - Convolutional Neural Network (CNN)
   - Causal CNN
   - Recurrent Neural Network (RNN)
