@@ -5,7 +5,8 @@ This repository contains the source code for my Final Year Project, which focuse
 ---
 
 ## 📁 Project Structure
-Source Code/
+
+```text
 Source Code/
 ├── Driving/                  # Models trained on driving data only
 ├── Driving + PVT/           # Models trained on driving and behavioral (PVT) data
@@ -15,6 +16,7 @@ Source Code/
 ├── Physio + PVT/            # Combined physiological and behavioral data
 ├── PVT/                     # Behavioral (reaction time) data only
 └── Exp4/                    # Dataset folder (Meteier et al. 2023 subset used in this project)
+```
 
 
 
